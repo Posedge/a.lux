@@ -1,0 +1,23 @@
+
+# Set up access to your Hue here or in private_config.properties
+
+adapters.hue:
+  #api_key: xyz
+
+light_schedules:
+  - group: xyz
+    days_of_week:
+      - Mo
+      - Tue
+      - Wed
+      - Thu
+      - Fri
+    sequence:
+      - time: 21:00
+        scene: day
+      - time: 22:00
+        scene: evening
+        interpolate: linear
+      - time: 23:00
+        scene: dark
+        interpolate: linear
