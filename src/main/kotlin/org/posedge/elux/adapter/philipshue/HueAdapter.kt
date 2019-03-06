@@ -6,11 +6,14 @@ import org.posedge.elux.service.domain.LightsGroup
 import org.springframework.stereotype.Component
 
 @Component
-class HueAdapter constructor(properties: HueProperties) : LightsAdapter {
+class HueAdapter constructor(properties: HueProperties, restClient: RestClient) : LightsAdapter {
 
     init {
         // TODO figure out how to do logging
         println("Hue apiKey: ${properties.apiKey}")
+
+        val groups = restClient.getGroups(properties.apiKey)
+        println("Groups: $groups")
     }
 
     override fun getLightsGroup(groupId: String): LightsGroup {

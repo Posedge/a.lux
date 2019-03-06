@@ -1,17 +1,33 @@
+# SAMPLE e.lux CONFIGURATION
+# Alternatively, you can configure it in private_config.properties (not version controlled)
 
-# Set up access to your Hue here or in private_config.properties
 
 adapters.hue:
-  #api_key: xyz
 
+  # Url under which your Philips Hue can be reached
+  url: http://hue-address:1234
+
+  # The api key for access to the Hue's api. Get yours as described on https://developers.meethue.com/
+  api_key: xyz
+
+
+# Here we configure various schedules that we would like applied to groups of lightbulbs
 light_schedules:
+
+  # Name of a lights group as stored on the Hue
   - group: xyz
+
+    # On which days do we want the application to control our light bulbs - like an alarm clock
     days_of_week:
       - Mo
       - Tue
       - Wed
       - Thu
       - Fri
+
+    # We define the steps of the schedule like keyframes in an animation.
+    # Those keyframes are defined through light scenes..
+    # e.lux will look for scenes with the specified names on the Hue.
     sequence:
       - time: 21:00
         scene: day
