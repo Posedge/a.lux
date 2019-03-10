@@ -1,4 +1,4 @@
-# SAMPLE e.lux CONFIGURATION
+# SAMPLE a.lux CONFIGURATION
 # Alternatively, you can configure it in private_config.properties (not version controlled)
 
 
@@ -27,7 +27,7 @@ light_schedules:
 
     # We define the steps of the schedule like keyframes in an animation.
     # Those keyframes are defined through light scenes..
-    # e.lux will look for scenes with the specified names on the Hue.
+    # a.lux will look for scenes with the specified names on the Hue.
     sequence:
       - time: 21:00
         scene: day

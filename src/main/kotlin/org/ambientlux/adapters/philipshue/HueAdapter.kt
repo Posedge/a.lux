@@ -1,8 +1,8 @@
-package org.posedge.elux.adapter.philipshue
+package org.ambientlux.adapters.philipshue
 
-import org.posedge.elux.adapter.LightsAdapter
-import org.posedge.elux.service.domain.LightStatus
-import org.posedge.elux.service.domain.LightsGroup
+import org.ambientlux.adapters.LightsAdapter
+import org.ambientlux.service.domain.LightStatus
+import org.ambientlux.service.domain.LightsGroup
 import org.springframework.stereotype.Component
 
 @Component

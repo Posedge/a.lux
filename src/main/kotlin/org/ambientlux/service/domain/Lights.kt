@@ -1,4 +1,4 @@
-package org.posedge.elux.service.domain
+package org.ambientlux.service.domain
 
 data class LightsGroup (
         val id: String,

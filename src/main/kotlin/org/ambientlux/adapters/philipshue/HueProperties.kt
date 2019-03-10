@@ -1,4 +1,4 @@
-package org.posedge.elux.adapter.philipshue
+package org.ambientlux.adapters.philipshue
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.context.annotation.Configuration

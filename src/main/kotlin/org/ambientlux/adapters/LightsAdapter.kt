@@ -1,7 +1,7 @@
-package org.posedge.elux.adapter
+package org.ambientlux.adapters
 
-import org.posedge.elux.service.domain.LightStatus
-import org.posedge.elux.service.domain.LightsGroup
+import org.ambientlux.service.domain.LightStatus
+import org.ambientlux.service.domain.LightsGroup
 
 interface LightsAdapter {
     fun getLightsGroup(groupId: String) : LightsGroup

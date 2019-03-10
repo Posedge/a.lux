@@ -1,4 +1,4 @@
-package org.posedge.elux
+package org.ambientlux
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.context.properties.EnableConfigurationProperties
@@ -10,8 +10,8 @@ import org.springframework.context.annotation.PropertySource
 @PropertySource(value = ["classpath:private_config.properties"], ignoreResourceNotFound = true)
 @EnableConfigurationProperties
 @EnableFeignClients
-class EluxApplication
+class AluxApplication
 
 fun main(args: Array<String>) {
-	runApplication<EluxApplication>(*args)
+	runApplication<AluxApplication>(*args)
 }
