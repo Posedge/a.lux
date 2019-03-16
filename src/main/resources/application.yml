@@ -37,3 +37,7 @@ light_schedules:
       - time: 23:00
         scene: dark
         interpolate: linear
+
+
+# Spring configuration
+spring.output.ansi.enabled: ALWAYS
