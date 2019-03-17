@@ -12,11 +12,11 @@ import java.lang.IllegalArgumentException
 class HueAdapter constructor(val properties: HueProperties, val restClient: RestClient) : LightsAdapter {
 
     private val log = LoggerFactory.getLogger(javaClass)
-    private val groups: Map<String, LightsGroup>
+    private val groupNameToId: Map<String, String>
 
     init {
-        log.debug("Dto apiKey: ${properties.apiKey}")
-        groups = fetchGroups()
+        val groups = fetchGroups()
+        groupNameToId = groups.entries.associate { it.value.name to it.key }
     }
 
     private fun fetchGroups(): Map<String, LightsGroup> {
@@ -24,6 +24,12 @@ class HueAdapter constructor(val properties: HueProperties, val restClient: Rest
         return restClient.getGroups(properties.apiKey).entries.associate {
             it.key to convertLightsGroup(it.value)
         }
+    }
+
+    private fun fetchGroup(groupId: String): LightsGroup {
+        log.debug("Fetching group $groupId...")
+        val group = restClient.getGroup(properties.apiKey, groupId)
+        return convertLightsGroup(group)
     }
 
     private fun fetchLight(id: String): Light {
@@ -42,10 +48,14 @@ class HueAdapter constructor(val properties: HueProperties, val restClient: Rest
         return Light(id, status)
     }
 
-    override fun getLightsGroup(groupId: String): LightsGroup
-            = groups[groupId] ?: throw IllegalArgumentException("Bad groupId $groupId")
+    override fun getLightsGroup(groupName: String): LightsGroup {
+        val groupId = groupNameToId[groupName]
+                ?: throw IllegalArgumentException("Group name '$groupName' not found on the Hue!")
+        return fetchGroup(groupId)
+    }
 
     override fun setLight(lightId: String, status: LightStatus) {
         TODO("not implemented")
     }
+
 }

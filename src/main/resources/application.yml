@@ -41,3 +41,6 @@ light_schedules:
 
 # Spring configuration
 spring.output.ansi.enabled: ALWAYS
+logging.level:
+  ROOT: WARN
+  org.ambientlux: DEBUG

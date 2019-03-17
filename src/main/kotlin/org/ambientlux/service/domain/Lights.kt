@@ -1,7 +1,7 @@
 package org.ambientlux.service.domain
 
 data class LightsGroup (
-        val id: String,
+        val name: String,
         val lights: Map<String, Light>,
         val anyOn: Boolean
 )

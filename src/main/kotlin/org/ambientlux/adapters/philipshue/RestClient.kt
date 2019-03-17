@@ -10,6 +10,10 @@ interface RestClient {
     @GetMapping(value = ["/api/{apiKey}/groups"])
     fun getGroups(@PathVariable("apiKey") apiKey: String): Map<String, Group>
 
+    @GetMapping(value = ["/api/{apiKey}/groups/{groupId}"])
+    fun getGroup(@PathVariable("apiKey") apiKey: String,
+                 @PathVariable("groupId") groupId: String): Group
+
     @GetMapping(value = ["/api/{apiKey}/lights/{lightId}"])
     fun getLight(@PathVariable("apiKey") apiKey: String,
                  @PathVariable("lightId") lightId: String): Light
