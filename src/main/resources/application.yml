@@ -26,7 +26,7 @@ light_schedules:
       - Fri
 
     # We define the steps of the schedule like keyframes in an animation.
-    # Those keyframes are defined through light scenes..
+    # Those keyframes are defined through light scenes.
     # a.lux will look for scenes with the specified names on the Hue.
     sequence:
       - time: 21:00

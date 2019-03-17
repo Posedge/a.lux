@@ -4,6 +4,7 @@ import org.ambientlux.adapters.LightsAdapter
 import org.ambientlux.service.domain.Light
 import org.ambientlux.service.domain.LightStatus
 import org.ambientlux.service.domain.LightsGroup
+import org.ambientlux.service.domain.Scene
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Component
 import java.lang.IllegalArgumentException
@@ -55,6 +56,10 @@ class HueAdapter constructor(val properties: HueProperties, val restClient: Rest
     }
 
     override fun setLight(lightId: String, status: LightStatus) {
+        TODO("not implemented")
+    }
+
+    override fun getScenes(): Map<String, Scene> {
         TODO("not implemented")
     }
 

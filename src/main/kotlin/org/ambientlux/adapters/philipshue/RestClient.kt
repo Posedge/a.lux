@@ -14,6 +14,13 @@ interface RestClient {
     fun getGroup(@PathVariable("apiKey") apiKey: String,
                  @PathVariable("groupId") groupId: String): Group
 
+    @GetMapping(value = ["/api/{apiKey}/scenes"])
+    fun getScenes(@PathVariable("apiKey") apiKey: String): Map<String, Scene>
+
+    @GetMapping(value = ["/api/{apiKey}/scenes/{sceneId}"])
+    fun getScene(@PathVariable("apiKey") apiKey: String,
+                 @PathVariable("sceneId") sceneId: String): Scene
+
     @GetMapping(value = ["/api/{apiKey}/lights/{lightId}"])
     fun getLight(@PathVariable("apiKey") apiKey: String,
                  @PathVariable("lightId") lightId: String): Light
@@ -29,6 +36,13 @@ interface RestClient {
     data class GroupState (
             val all_on: Boolean,
             val any_on: Boolean
+    )
+
+    data class Scene (
+            val name: String,
+            val type: String,
+            val group: String,
+            val lightstates: Map<String, LightState>?
     )
 
     data class Light (
