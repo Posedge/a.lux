@@ -8,12 +8,35 @@ import org.springframework.web.bind.annotation.PathVariable
 interface RestClient {
 
     @GetMapping(value = ["/api/{apiKey}/groups"])
-    fun getGroups(@PathVariable("apiKey") apiKey: String): Map<String, LightsGroup>
+    fun getGroups(@PathVariable("apiKey") apiKey: String): Map<String, Group>
 
-}
+    @GetMapping(value = ["/api/{apiKey}/lights/{lightId}"])
+    fun getLight(@PathVariable("apiKey") apiKey: String,
+                 @PathVariable("lightId") lightId: String): Light
 
+    // DTO's
 
-class LightsGroup {
-    lateinit var name: String
-    lateinit var lights: List<String>
+    data class Group (
+            val name: String,
+            val lights: List<String>,
+            val state: GroupState
+    )
+
+    data class GroupState (
+            val all_on: Boolean,
+            val any_on: Boolean
+    )
+
+    data class Light (
+            val name: String,
+            val state: LightState
+    )
+
+    data class LightState (
+            val on: Boolean,
+            val bri: Int,
+            val hue: Int,
+            val sat: Int
+    )
+
 }

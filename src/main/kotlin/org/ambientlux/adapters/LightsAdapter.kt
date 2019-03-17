@@ -5,5 +5,5 @@ import org.ambientlux.service.domain.LightsGroup
 
 interface LightsAdapter {
     fun getLightsGroup(groupId: String) : LightsGroup
-    fun setLightStatus(lightId: String, status: LightStatus)
+    fun setLight(lightId: String, status: LightStatus)
 }
