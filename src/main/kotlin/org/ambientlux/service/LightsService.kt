@@ -119,15 +119,14 @@ class LightsService @Autowired constructor(
             when {
                 lhs == null || !lhs.on -> when {
                     rhs == null || !rhs.on -> LightStatus(false, 0, 0, 0)
-                    else -> rhs
+                    else -> LightStatus(true, interpolate(0, rhs.brightness, coef), rhs.saturation, rhs.hue)
                 }
-                rhs == null || !rhs.on -> lhs
+                rhs == null || !rhs.on -> LightStatus(true, interpolate(lhs.brightness, 0, coef), lhs.saturation, lhs.hue)
                 else -> LightStatus(
                         true,
                         interpolate(lhs.brightness, rhs.brightness, coef),
                         interpolate(lhs.saturation, rhs.saturation, coef),
                         interpolate(lhs.hue, rhs.hue, coef))
-                // TODO if one of the lights is off, adapt brightness instead
             }
 
     private fun interpolate(lhs: Int, rhs: Int, coef: Float): Int = (lhs + coef * (rhs - lhs)).toInt()

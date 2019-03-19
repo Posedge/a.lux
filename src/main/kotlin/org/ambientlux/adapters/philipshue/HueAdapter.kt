@@ -31,6 +31,7 @@ class HueAdapter(
     }
 
     override fun fetchScenes(): Map<String, Scene> {
+        // TODO filter these. there are duplicates and stuff
         log.debug("Reading list of all scenes...")
         val scenes = restClient.getScenes(apiKey)
 
