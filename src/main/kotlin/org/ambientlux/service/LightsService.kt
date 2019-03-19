@@ -12,6 +12,9 @@ import java.lang.IllegalArgumentException
 import java.time.*
 import javax.annotation.PostConstruct
 
+
+const val UPDATE_INTERVAL_MILLIS = 30_000L
+
 @Service
 class LightsService @Autowired constructor(
         private val lightsAdapter: LightsAdapter, private val properties: ScheduleProperties) {
@@ -26,11 +29,8 @@ class LightsService @Autowired constructor(
         scenesByName = scenes.entries.associate { (_, scene) -> scene.name to scene }
     }
 
-    /**
-     * Will be called every minute.
-     */
-    @Scheduled(fixedRate = 60000)
-    public fun onUpdate() {
+    @Scheduled(fixedRate = UPDATE_INTERVAL_MILLIS)
+    private fun onUpdate() {
         properties.lightSchedules.forEach(this::processSchedule)
     }
 
@@ -95,11 +95,20 @@ class LightsService @Autowired constructor(
                 continue
             }
 
+            log.debug("Segment ${start.time} - ${end.time} matches, interpolating light status...")
             val coef = getInterpolationCoef(startTime, endTime, time)
             if (end.interpolate != null && end.interpolate != "linear") {
                 throw NotImplementedError("Only 'linear' interpolation supported for now")
             }
             return interpolate(startScene, endScene, coef)
+        }
+
+        val lastKeyframe = schedule.sequence.last()
+        val lastUpdate = LocalTime.parse(lastKeyframe.time).plusSeconds(UPDATE_INTERVAL_MILLIS / 1000)
+        if (time.isBefore(lastUpdate)) {
+            // trigger last update
+            log.debug("Final update after last keyframe at $lastUpdate...")
+            return scenesByName[lastKeyframe.scene]!!.lightStatus
         }
         return null
     }
