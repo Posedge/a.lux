@@ -5,7 +5,7 @@ import org.ambientlux.service.domain.LightsGroup
 import org.ambientlux.service.domain.Scene
 
 interface LightsAdapter {
-    fun getLightsGroup(groupName: String): LightsGroup
+    fun fetchLightsGroup(groupName: String): LightsGroup
     fun setLight(lightId: String, status: LightStatus)
-    fun getScenes(): Map<String, Scene>
+    fun fetchScenes(): Map<String, Scene>
 }

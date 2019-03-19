@@ -12,7 +12,7 @@ adapters.hue:
 
 
 # Here we configure various schedules that we would like applied to groups of lightbulbs
-light_schedules:
+light-schedules:
 
   # Name of a lights group as stored on the Hue
   - group: xyz
@@ -29,13 +29,13 @@ light_schedules:
     # Those keyframes are defined through light scenes.
     # a.lux will look for scenes with the specified names on the Hue.
     sequence:
-      - time: 21:00
-        scene: day
-      - time: 22:00
-        scene: evening
+      - time: '21:00'
+        scene: Tag
+      - time: '22:10'
+        scene: Abend
         interpolate: linear
-      - time: 23:00
-        scene: dark
+      - time: '22:20'
+        scene: Dunkel
         interpolate: linear
 
 

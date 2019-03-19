@@ -6,31 +6,44 @@ import org.ambientlux.service.domain.LightsGroup
 import org.ambientlux.service.domain.Scene
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
+import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Service
 import java.lang.IllegalArgumentException
 import java.time.*
+import javax.annotation.PostConstruct
 
 @Service
 class LightsService @Autowired constructor(
-        private val lightsAdapter: LightsAdapter, private val properties: ScheduleList) {
+        private val lightsAdapter: LightsAdapter, private val properties: ScheduleProperties) {
 
     private val log = LoggerFactory.getLogger(javaClass)
 
     // Read all scenes
-    private val scenes: Map<String, Scene> = lightsAdapter.getScenes()
+    private val scenesByName: Map<String, Scene>
+
+    init {
+        val scenes: Map<String, Scene> = lightsAdapter.fetchScenes()
+        scenesByName = scenes.entries.associate { (_, scene) -> scene.name to scene }
+    }
 
     /**
-     * Will be called periodically.
+     * Will be called every minute.
      */
+    @Scheduled(fixedRate = 60000)
     public fun onUpdate() {
-        properties.forEach(this::processSchedule)
+        properties.lightSchedules.forEach(this::processSchedule)
+    }
+
+    @PostConstruct
+    private fun postConstruct() {
+        onUpdate()
     }
 
     private fun processSchedule(schedule: Schedule) {
         val groupName = schedule.group
         log.info("Updating schedule for '$groupName'...")
 
-        val group = lightsAdapter.getLightsGroup(groupName)
+        val group = lightsAdapter.fetchLightsGroup(groupName)
         if (!shouldUpdateGroup(group)) return
         updateGroup(group, schedule)
     }
@@ -71,8 +84,12 @@ class LightsService @Autowired constructor(
 
             val startTime = LocalTime.parse(start.time)
             val endTime = LocalTime.parse(end.time)
-            val startScene = scenes.getValue(start.scene)
-            val endScene = scenes.getValue(end.scene)
+
+            val startScene = scenesByName[start.scene]
+            val endScene = scenesByName[end.scene]
+            if (startScene == null || endScene == null) {
+                throw IllegalArgumentException("No scene named ${end.scene} on the hue")
+            }
             if (startTime.isAfter(time) || endTime.isBefore(time)) {
                 // TODO check and define how to handle wrap-around after midnight
                 continue
@@ -80,30 +97,38 @@ class LightsService @Autowired constructor(
 
             val coef = getInterpolationCoef(startTime, endTime, time)
             if (end.interpolate != null && end.interpolate != "linear") {
-                throw IllegalArgumentException("Only 'linear' interpolation supported for now")
+                throw NotImplementedError("Only 'linear' interpolation supported for now")
             }
             return interpolate(startScene, endScene, coef)
         }
         return null
     }
 
-    private fun getInterpolationCoef(startTime: LocalTime, endTime: LocalTime, time: LocalTime): Float {
-        return 0.5F // TODO
-    }
+    private fun getInterpolationCoef(startTime: LocalTime, endTime: LocalTime, time: LocalTime): Float =
+            (Duration.between(startTime, time).toSeconds().toFloat()
+                    / Duration.between(startTime, endTime).toSeconds().toFloat())
 
     private fun interpolate(lhs: Scene, rhs: Scene, coef: Float): Map<String, LightStatus>? {
-        val allLights = lhs.lights + rhs.lights
-        return allLights.entries.associate { (lightId, _) ->
-            val lhsStatus = lhs.lights[lightId]?.lightStatus!!
-            val rhsStatus = rhs.lights[lightId]?.lightStatus!!
-            val result = LightStatus(
-                    lhsStatus.on || rhsStatus.on,
-                    interpolate(lhsStatus.brightness, rhsStatus.brightness, coef),
-                    interpolate(lhsStatus.saturation, rhsStatus.saturation, coef),
-                    interpolate(lhsStatus.hue, rhsStatus.hue, coef))
-            lightId to result
+        val allLights = lhs.lightStatus.keys + rhs.lightStatus.keys
+        return allLights.associate { lightId ->
+            lightId to interpolate(lhs.lightStatus[lightId], rhs.lightStatus[lightId], coef)
         }
     }
+
+    private fun interpolate(lhs: LightStatus?, rhs: LightStatus?, coef: Float): LightStatus =
+            when {
+                lhs == null || !lhs.on -> when {
+                    rhs == null || !rhs.on -> LightStatus(false, 0, 0, 0)
+                    else -> rhs
+                }
+                rhs == null || !rhs.on -> lhs
+                else -> LightStatus(
+                        true,
+                        interpolate(lhs.brightness, rhs.brightness, coef),
+                        interpolate(lhs.saturation, rhs.saturation, coef),
+                        interpolate(lhs.hue, rhs.hue, coef))
+                // TODO if one of the lights is off, adapt brightness instead
+            }
 
     private fun interpolate(lhs: Int, rhs: Int, coef: Float): Int = (lhs + coef * (rhs - lhs)).toInt()
 

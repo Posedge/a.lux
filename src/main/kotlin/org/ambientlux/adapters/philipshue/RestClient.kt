@@ -3,6 +3,8 @@ package org.ambientlux.adapters.philipshue
 import org.springframework.cloud.openfeign.FeignClient
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
+import org.springframework.web.bind.annotation.PutMapping
+import org.springframework.web.bind.annotation.RequestBody
 
 @FeignClient(name = "HueRestClient", url = "\${adapters.hue.url}")
 interface RestClient {
@@ -25,6 +27,11 @@ interface RestClient {
     fun getLight(@PathVariable("apiKey") apiKey: String,
                  @PathVariable("lightId") lightId: String): Light
 
+    @PutMapping(value = ["/api/{apiKey}/lights/{lightId}/state"])
+    fun putLightState(@PathVariable("apiKey") apiKey: String,
+                      @PathVariable("lightId") lightId: String,
+                      @RequestBody body: LightState)
+
     // DTO's
 
     data class Group (
@@ -41,7 +48,7 @@ interface RestClient {
     data class Scene (
             val name: String,
             val type: String,
-            val group: String,
+            val group: String?,
             val lightstates: Map<String, LightState>?
     )
 
@@ -54,7 +61,8 @@ interface RestClient {
             val on: Boolean,
             val bri: Int,
             val hue: Int,
-            val sat: Int
+            val sat: Int,
+            val transitionTime: Int?
     )
 
 }

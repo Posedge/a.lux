@@ -16,7 +16,7 @@ data class Scene (
         val id: String,
         val name: String,
         val groupId: String,
-        val lights: Map<String, Light>
+        val lightStatus: Map<String, LightStatus>
 )
 
 data class Light (

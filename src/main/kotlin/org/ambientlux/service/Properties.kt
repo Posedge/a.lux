@@ -4,8 +4,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.context.annotation.Configuration
 
 @Configuration
-@ConfigurationProperties("light_schedules")
-class ScheduleList: ArrayList<Schedule>()
+@ConfigurationProperties
+class ScheduleProperties {
+    var lightSchedules: List<Schedule> = ArrayList()
+}
 
 class Schedule {
     lateinit var group: String
