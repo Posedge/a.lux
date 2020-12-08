@@ -25,7 +25,7 @@
 /nbdist/
 /.nb-gradle/
 
-private_config.properties
+**/config.yml
 
 # Compiled class file
 *.class

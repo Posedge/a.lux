@@ -11,17 +11,18 @@ repositories {
 }
 
 dependencies {
-	implementation "org.jetbrains.kotlin:kotlin-stdlib"
+	implementation 'org.jetbrains.kotlin:kotlin-stdlib'
 	implementation 'org.slf4j:slf4j-api:1.7.25'
 	implementation 'ch.qos.logback:logback-classic:1.2.3'
 	implementation 'ch.qos.logback:logback-core:1.2.3'
-	implementation "com.fasterxml.jackson.module:jackson-module-kotlin"
+	implementation 'org.yaml:snakeyaml:1.27'
 }
 
 compileKotlin {
 	kotlinOptions {
 		freeCompilerArgs = ['-Xjsr305=strict']
 		jvmTarget = '11'
+		languageVersion = "1.4"
 	}
 }
 

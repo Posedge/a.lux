@@ -1,0 +1,8 @@
+# SAMPLE a.lux CONFIGURATION
+
+# Url under which your Philips Hue can be reached
+url: http://hue_address
+
+# The api key for access to the Hue's api. Get yours as described on https://developers.meethue.com/
+api_key: your_api_key
+
