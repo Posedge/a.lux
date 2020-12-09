@@ -20,8 +20,8 @@ class LightService {
         logger.info("A.lux is starting up. Configuration: $CONFIG")
         runBlocking {
 //            mainLoop()
-            val light = hue.getLight()
-            logger.info("light $light")
+            val groups = hue.getRoomsAndZones()
+            logger.info("groups $groups")
         }
     }
 
