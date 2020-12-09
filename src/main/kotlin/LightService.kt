@@ -1,3 +1,8 @@
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import org.slf4j.LoggerFactory
 
 fun main(args: Array<String>) {
@@ -9,9 +14,15 @@ class LightService {
     val logger = LoggerFactory.getLogger(javaClass)
     var isManagingLighting: Boolean = false;
     var lastLightState: Any? = null;
+    val hue = HueClient()
 
     init {
-        mainLoop()
+        logger.info("A.lux is starting up. Configuration: $CONFIG")
+        runBlocking {
+//            mainLoop()
+            val light = hue.getLight()
+            logger.info("light $light")
+        }
     }
 
     fun mainLoop() {
