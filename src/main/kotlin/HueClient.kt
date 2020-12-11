@@ -8,19 +8,22 @@ import io.ktor.client.features.logging.Logging
 import io.ktor.client.request.get
 import org.slf4j.LoggerFactory
 
-class HueClient {
-
-    private val logger = LoggerFactory.getLogger(javaClass)
-    private val http = HttpClient(Apache) {
-        install(JsonFeature) {
-            serializer = JacksonSerializer() {
-                configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
-            }
-        }
-        install(Logging) {
-            level = LogLevel.INFO
+private val DEFAULT_HTTP_CLIENT = HttpClient(Apache) {
+    install(JsonFeature) {
+        serializer = JacksonSerializer() {
+            configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
         }
     }
+    install(Logging) {
+        level = LogLevel.INFO
+    }
+}
+
+class HueClient (private val http: HttpClient) {
+
+    constructor() : this (DEFAULT_HTTP_CLIENT)
+
+    private val logger = LoggerFactory.getLogger(javaClass)
 
     suspend fun getRoomsAndZones(): Map<Int, Group> {
         return http.get<Map<Int, Group>>("${CONFIG.url}/api/${CONFIG.apiKey}/groups")

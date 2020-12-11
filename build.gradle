@@ -12,7 +12,8 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+	implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.4.21'
+	implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2'
 	implementation 'org.slf4j:slf4j-api:1.7.25'
 	implementation 'ch.qos.logback:logback-classic:1.2.3'
 	implementation 'ch.qos.logback:logback-core:1.2.3'
@@ -20,7 +21,15 @@ dependencies {
 	implementation "io.ktor:ktor-client-apache:$ktorVersion"
 	implementation "io.ktor:ktor-client-jackson:$ktorVersion"
 	implementation "io.ktor:ktor-client-logging-jvm:$ktorVersion"
-	implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2'
+	implementation 'com.fasterxml.jackson.module:jackson-module-kotlin:2.12.0'
+
+	testImplementation 'org.jetbrains.kotlin:kotlin-test-junit5'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+	testImplementation "io.ktor:ktor-client-mock-jvm:$ktorVersion"
+}
+
+test {
+	useJUnitPlatform()
 }
 
 compileKotlin {
