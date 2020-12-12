@@ -1,23 +1,9 @@
-import com.fasterxml.jackson.databind.DeserializationFeature
+package hue
+
+import CONFIG
 import io.ktor.client.HttpClient
-import io.ktor.client.engine.apache.Apache
-import io.ktor.client.features.json.JacksonSerializer
-import io.ktor.client.features.json.JsonFeature
-import io.ktor.client.features.logging.LogLevel
-import io.ktor.client.features.logging.Logging
 import io.ktor.client.request.get
 import org.slf4j.LoggerFactory
-
-private val DEFAULT_HTTP_CLIENT = HttpClient(Apache) {
-    install(JsonFeature) {
-        serializer = JacksonSerializer() {
-            configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
-        }
-    }
-    install(Logging) {
-        level = LogLevel.INFO
-    }
-}
 
 class HueClient (private val http: HttpClient) {
 
@@ -25,7 +11,7 @@ class HueClient (private val http: HttpClient) {
 
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    suspend fun getRoomsAndZones(): Map<Int, Group> {
+    suspend fun getLightGroups(): Map<Int, Group> {
         return http.get<Map<Int, Group>>("${CONFIG.url}/api/${CONFIG.apiKey}/groups")
             .filterValues { it.type in setOf("Room", "Zone") }
     }

@@ -1,7 +1,4 @@
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import hue.HueClient
 import kotlinx.coroutines.runBlocking
 import org.slf4j.LoggerFactory
 
@@ -20,7 +17,7 @@ class LightService {
         logger.info("A.lux is starting up. Configuration: $CONFIG")
         runBlocking {
 //            mainLoop()
-            val groups = hue.getRoomsAndZones()
+            val groups = hue.getLightGroups()
             logger.info("groups $groups")
         }
     }
