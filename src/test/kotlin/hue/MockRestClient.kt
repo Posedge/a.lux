@@ -37,6 +37,7 @@ val MOCK_HTTP_CLIENT = HttpClient(MockEngine) {
 private fun MockRequestHandleScope.setupRequestHandlers(request: HttpRequestData): HttpResponseData {
     val responseBodyFile = when {
         request.url.encodedPath.endsWith("/groups") -> "groups.json"
+        request.url.encodedPath.endsWith("/scenes") -> "scenes.json"
         else -> error("Unhandled ${request.url}")
     }
     return this.respond(

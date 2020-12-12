@@ -1,0 +1,2132 @@
+{
+  "wCki-vXu4Pq9c-m": {
+    "name": "Frühlingssee",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "F0d7N_r03_d24"
+    },
+    "picture": "",
+    "image": "f23b133f-7d9e-4edd-bf22-c2c4ba47b39d",
+    "lastupdated": "2020-11-16T21:51:17",
+    "version": 2
+  },
+  "zt8nGlnVxNG1y5H": {
+    "name": "Smaragd-Insel",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "GOOWy_r03_d33"
+    },
+    "picture": "",
+    "image": "23a4eec3-f67e-4c82-8837-5ef31cf93838",
+    "lastupdated": "2020-11-16T21:51:33",
+    "version": 2
+  },
+  "KnkPVaauwJ4MNPF": {
+    "name": "Sternennebel",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "5grog_r07_d52"
+    },
+    "picture": "",
+    "image": "e6b53fe0-6b37-40bf-8c4e-f32afe95420f",
+    "lastupdated": "2020-11-16T10:14:18",
+    "version": 2
+  },
+  "v6erw6JlpoTBVnM": {
+    "name": "Tokio",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "Lc1yU_r07_d47"
+    },
+    "picture": "",
+    "image": "60f088f5-4224-4f01-bcb1-81ef46099f63",
+    "lastupdated": "2020-11-16T10:14:18",
+    "version": 2
+  },
+  "I0cIE03R6kazGe3": {
+    "name": "Palm Beach",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "jF2fS_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-07T22:57:52",
+    "version": 2
+  },
+  "dR1R8XAL2rDgEL3": {
+    "name": "Rubinrotes Leuchten",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "QkWlx_r03_d16"
+    },
+    "picture": "",
+    "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+    "lastupdated": "2020-11-16T21:50:39",
+    "version": 2
+  },
+  "AAQH5eYqs92jA8J": {
+    "name": "Abend",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "o2vuw_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-12-06T21:25:08",
+    "version": 2
+  },
+  "Vk3M5d8UkupwNcq": {
+    "name": "Hell",
+    "type": "GroupScene",
+    "group": "0",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": true,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "ZLOHn_r00_d05"
+    },
+    "picture": "",
+    "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+    "lastupdated": "2020-11-10T22:40:51",
+    "version": 2
+  },
+  "WIHR7IYrvJBV87X": {
+    "name": "Konzentrieren",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": true,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "YoRNI_r07_d03"
+    },
+    "picture": "",
+    "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+    "lastupdated": "2020-11-30T20:15:12",
+    "version": 2
+  },
+  "AD7AEBC5878193C": {
+    "name": "GroupId:ECB5FAFFFE01DBAA3",
+    "type": "LightScene",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "a2d0c0ee-3b20-46ba-bd65-38741f9b0311",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2019-12-02T17:40:35",
+    "version": 1
+  },
+  "AE493198FD36A38": {
+    "name": "Custom at 21:0",
+    "type": "LightScene",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "a2d0c0ee-3b20-46ba-bd65-38741f9b0311",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2019-12-02T17:43:40",
+    "version": 1
+  },
+  "11B249F3631F9FA": {
+    "name": "Custom at 21:0",
+    "type": "LightScene",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "a2d0c0ee-3b20-46ba-bd65-38741f9b0311",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2019-12-02T17:44:23",
+    "version": 1
+  },
+  "A913C0C8B50A329": {
+    "name": "Custom at 22:0",
+    "type": "LightScene",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "a2d0c0ee-3b20-46ba-bd65-38741f9b0311",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2019-12-02T17:45:31",
+    "version": 1
+  },
+  "11ECA723F0B6032": {
+    "name": "Custom at 22:0",
+    "type": "LightScene",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "a2d0c0ee-3b20-46ba-bd65-38741f9b0311",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2019-12-02T21:06:31",
+    "version": 1
+  },
+  "Xg5VP0teQAb9A90": {
+    "name": "Hell",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": true,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "EsHg8_r03_d05"
+    },
+    "picture": "",
+    "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+    "lastupdated": "2020-07-30T16:46:30",
+    "version": 2
+  },
+  "1nQGqymegYWTnpG": {
+    "name": "Hell",
+    "type": "GroupScene",
+    "group": "0",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": true,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "ZLOHn_r00_d05"
+    },
+    "picture": "",
+    "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+    "lastupdated": "2020-11-10T22:40:51",
+    "version": 2
+  },
+  "6LkBJ271c6hO0SD": {
+    "name": "Sonnenuntergang Savanne",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "zrMrX_r06_d15"
+    },
+    "picture": "",
+    "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+    "lastupdated": "2020-11-16T10:14:13",
+    "version": 2
+  },
+  "YDSYdE7NKWC4Svw": {
+    "name": "Tropendämmerung",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "f5nW5_r06_d16"
+    },
+    "picture": "",
+    "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+    "lastupdated": "2020-11-16T10:14:13",
+    "version": 2
+  },
+  "2HS5VA2znHYJfp-": {
+    "name": "Nordlichter",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "rc9Qs_r06_d17"
+    },
+    "picture": "",
+    "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+    "lastupdated": "2020-11-16T10:14:13",
+    "version": 2
+  },
+  "Y7ECU2MaTmO7O96": {
+    "name": "Frühlingsblüten",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "IHLmj_r06_d18"
+    },
+    "picture": "",
+    "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+    "lastupdated": "2020-11-16T10:14:13",
+    "version": 2
+  },
+  "Kr9aen3o94rNvwI": {
+    "name": "Entspannen",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "zkqYN_r06_d01"
+    },
+    "picture": "",
+    "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+    "lastupdated": "2020-11-07T22:36:51",
+    "version": 2
+  },
+  "ppuq2yMHF-LRmQa": {
+    "name": "Nachtlicht",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "koj9K_r03_d07"
+    },
+    "picture": "",
+    "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+    "lastupdated": "2018-12-14T20:09:16",
+    "version": 2
+  },
+  "lpbuXQsPo1IViSU": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:31:06",
+    "version": 2
+  },
+  "NiAHQc57q3zUIzM": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:31:06",
+    "version": 2
+  },
+  "ULQVAe0hThDE7Oy": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:31:12",
+    "version": 2
+  },
+  "VIICezavn6j990i": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:31:12",
+    "version": 2
+  },
+  "E8ho5yaRUqcwRPV": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "3"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:31:42",
+    "version": 2
+  },
+  "gYB9HgRHkeZGWKx": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "3"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:31:42",
+    "version": 2
+  },
+  "wlMmi1TzlHAXHFn": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "3"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:32:09",
+    "version": 2
+  },
+  "Roqdjz-qRbJpGC4": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "3"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T22:32:09",
+    "version": 2
+  },
+  "sabH3lIuYglGw9a": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T23:36:41",
+    "version": 2
+  },
+  "MteJdmOA3OzV7PO": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-25T23:36:41",
+    "version": 2
+  },
+  "YPM3P2xYdhkNNUK": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-26T22:36:39",
+    "version": 2
+  },
+  "D2tAmhdsHZ6rcWR": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-26T22:36:39",
+    "version": 2
+  },
+  "JZR88hvEKHTvRsq": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-26T22:37:08",
+    "version": 2
+  },
+  "jnhhKxN7hHEFYAC": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-26T22:37:08",
+    "version": 2
+  },
+  "dJjmZCqmyISHq84": {
+    "name": "Wake Up init",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": true,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-26T23:15:41",
+    "version": 2
+  },
+  "tyawp4XUNftPwbh": {
+    "name": "Wake Up end",
+    "type": "LightScene",
+    "lights": [
+      "4",
+      "5"
+    ],
+    "owner": "87a97613-ddc8-4ccf-ac6f-998fb509c6f6",
+    "recycle": true,
+    "locked": false,
+    "appdata": {},
+    "picture": "",
+    "lastupdated": "2018-11-26T23:15:41",
+    "version": 2
+  },
+  "-SdlKx5LswpQxni": {
+    "name": "Abend",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "dOK8P_r02"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-30T19:06:59",
+    "version": 2
+  },
+  "d3h64pDgTAufIxj": {
+    "name": "Abend",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "tZnXS_r07"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-30T19:14:00",
+    "version": 2
+  },
+  "yMd6OysoGGa7be5": {
+    "name": "Tag",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": true,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "YClpE_r03"
+    },
+    "picture": "",
+    "lastupdated": "2020-10-20T19:12:42",
+    "version": 2
+  },
+  "qAO7PEHote-zLam": {
+    "name": "Lesen",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "IRc9b_r06_d02"
+    },
+    "picture": "",
+    "image": "e101a77f-9984-4f61-aac8-15741983c656",
+    "lastupdated": "2020-11-07T22:36:51",
+    "version": 2
+  },
+  "QgtH9pYkfwR41BZ": {
+    "name": "Bettlampe",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "O65Nk_r03"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-30T22:45:20",
+    "version": 2
+  },
+  "8eRb7c4rDoqtHr6": {
+    "name": "Konzentrieren",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "PFHFJ_r06_d03"
+    },
+    "picture": "",
+    "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+    "lastupdated": "2020-11-07T22:36:52",
+    "version": 2
+  },
+  "txlUpwezeZtOyuG": {
+    "name": "Energie tanken",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "871yY_r06_d04"
+    },
+    "picture": "",
+    "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+    "lastupdated": "2020-11-07T22:36:52",
+    "version": 2
+  },
+  "q65UBwrudK8yjwf": {
+    "name": "Hell",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "kobLG_r06_d05"
+    },
+    "picture": "",
+    "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+    "lastupdated": "2020-11-07T22:36:52",
+    "version": 2
+  },
+  "0hPktIts2e9TupI": {
+    "name": "Gedimmt",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "N1IQF_r06_d06"
+    },
+    "picture": "",
+    "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+    "lastupdated": "2020-11-07T22:36:52",
+    "version": 2
+  },
+  "moxZBsWs4Kq2sYK": {
+    "name": "Nachtlicht",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "cgSH5_r06_d07"
+    },
+    "picture": "",
+    "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+    "lastupdated": "2020-11-07T22:36:52",
+    "version": 2
+  },
+  "FAWRzivS1hhW5d-": {
+    "name": "Sonnenuntergang Savanne",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "kKFbe_r01_d15"
+    },
+    "picture": "",
+    "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+    "lastupdated": "2020-11-07T23:00:14",
+    "version": 2
+  },
+  "TErIgUItjqD5rjz": {
+    "name": "Gold",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "MVZoT_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-30T19:01:26",
+    "version": 2
+  },
+  "pMj0t5pvsZBEpDk": {
+    "name": "Nordlichter",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "88NLr_r01_d17"
+    },
+    "picture": "",
+    "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+    "lastupdated": "2020-11-07T22:59:18",
+    "version": 2
+  },
+  "cvtXVaEwnA1TgJb": {
+    "name": "Sonnenuntergang Savanne",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "QyJO7_r07_d15"
+    },
+    "picture": "",
+    "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+    "lastupdated": "2020-11-20T22:42:32",
+    "version": 2
+  },
+  "3eOuT96P8nMjcTZ": {
+    "name": "Entspannen",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "CxTVN_r01_d01"
+    },
+    "picture": "",
+    "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+    "lastupdated": "2020-11-07T22:44:05",
+    "version": 2
+  },
+  "o-u-ijFTXwCJk2j": {
+    "name": "Lesen",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "I836E_r01_d02"
+    },
+    "picture": "",
+    "image": "e101a77f-9984-4f61-aac8-15741983c656",
+    "lastupdated": "2020-11-07T22:44:05",
+    "version": 2
+  },
+  "mHWkNgcrbTjlnSF": {
+    "name": "Konzentrieren",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "iFmLK_r01_d03"
+    },
+    "picture": "",
+    "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+    "lastupdated": "2020-11-07T22:44:05",
+    "version": 2
+  },
+  "6Jyxhu3K8wbaY1t": {
+    "name": "Energie tanken",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "PgRmG_r01_d04"
+    },
+    "picture": "",
+    "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+    "lastupdated": "2020-11-07T22:44:05",
+    "version": 2
+  },
+  "f7FyHb9TGPhKvny": {
+    "name": "Hell",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "B4FPT_r01_d05"
+    },
+    "picture": "",
+    "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+    "lastupdated": "2020-11-07T22:44:06",
+    "version": 2
+  },
+  "iAzHzOaOBOYmBXT": {
+    "name": "Gedimmt",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "lgVrs_r01_d06"
+    },
+    "picture": "",
+    "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+    "lastupdated": "2020-11-07T22:44:06",
+    "version": 2
+  },
+  "95E9RwXk9qRiBS1": {
+    "name": "Nachtlicht",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "mWFSP_r01_d07"
+    },
+    "picture": "",
+    "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+    "lastupdated": "2020-11-07T22:44:06",
+    "version": 2
+  },
+  "m3PI7DkonELU5i7": {
+    "name": "Grün-Gelb",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "ccAZc_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-07T22:51:43",
+    "version": 2
+  },
+  "RxnyyMSVvmhla0H": {
+    "name": "Tokyo",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "9eU9O_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-07T22:54:54",
+    "version": 2
+  },
+  "b3uAVXIYrwqZgIz": {
+    "name": "Smaragd-Insel",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "ukQDj_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-07T22:58:27",
+    "version": 2
+  },
+  "vBNIH59kutNMCjU": {
+    "name": "Tropendämmerung",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "4CnSG_r07_d16"
+    },
+    "picture": "",
+    "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+    "lastupdated": "2020-11-16T10:14:18",
+    "version": 2
+  },
+  "YqGQO9QVuaV2M6K": {
+    "name": "Nordlichter",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "KupWe_r07_d17"
+    },
+    "picture": "",
+    "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+    "lastupdated": "2020-11-16T10:14:18",
+    "version": 2
+  },
+  "pfrEeZn8mWcaQZd": {
+    "name": "Frühlingsblüten",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "u58xz_r07_d18"
+    },
+    "picture": "",
+    "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+    "lastupdated": "2020-11-16T10:14:18",
+    "version": 2
+  },
+  "Yuf0RS6luApt55M": {
+    "name": "Entspannen",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "kQ0iv_r07_d01"
+    },
+    "picture": "",
+    "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+    "lastupdated": "2020-11-07T23:25:11",
+    "version": 2
+  },
+  "MnSZKt-iffnTbOA": {
+    "name": "Lesen",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "XRH8N_r07_d02"
+    },
+    "picture": "",
+    "image": "e101a77f-9984-4f61-aac8-15741983c656",
+    "lastupdated": "2020-11-07T23:25:11",
+    "version": 2
+  },
+  "CdiNdQv2Kr-b-Un": {
+    "name": "Konzentrieren",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "YoRNI_r07_d03"
+    },
+    "picture": "",
+    "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+    "lastupdated": "2020-11-07T23:25:11",
+    "version": 2
+  },
+  "gMSR7csD9ugjdGU": {
+    "name": "Energie tanken",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "FG2Rk_r07_d04"
+    },
+    "picture": "",
+    "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+    "lastupdated": "2020-11-07T23:25:11",
+    "version": 2
+  },
+  "TVdmSaZbc5har6y": {
+    "name": "Hell",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "Ccgsx_r07_d05"
+    },
+    "picture": "",
+    "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+    "lastupdated": "2020-11-07T23:25:11",
+    "version": 2
+  },
+  "cCvoXRvLpspmRtA": {
+    "name": "Gedimmt",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "zN9oC_r07_d06"
+    },
+    "picture": "",
+    "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+    "lastupdated": "2020-11-07T23:25:12",
+    "version": 2
+  },
+  "1K8oX-Kk9LK1o15": {
+    "name": "Nachtlicht",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "JyF1L_r07_d07"
+    },
+    "picture": "",
+    "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+    "lastupdated": "2020-11-07T23:25:12",
+    "version": 2
+  },
+  "pSWxGGFuHtWaX8g": {
+    "name": "Smaragd-Insel",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "SuplC_r07"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-16T10:14:18",
+    "version": 2
+  },
+  "8HskOf1BPvxsCeo": {
+    "name": "Sonnenuntergang Savanne",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "UElgs_r02_d15"
+    },
+    "picture": "",
+    "image": "4f2ed241-5aea-4c9d-8028-55d2b111e06f",
+    "lastupdated": "2020-11-10T22:41:47",
+    "version": 2
+  },
+  "CXGCodFqvReQWJe": {
+    "name": "Tropendämmerung",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "7gVfL_r02_d16"
+    },
+    "picture": "",
+    "image": "a6a03e6a-fe6e-45bc-b686-878137f3ba91",
+    "lastupdated": "2020-11-10T22:41:47",
+    "version": 2
+  },
+  "i4p0gmpiqSPvTDD": {
+    "name": "Nordlichter",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "1LZMW_r02_d17"
+    },
+    "picture": "",
+    "image": "1e42b2e8-d02e-40d2-9c8d-b1fd8216c686",
+    "lastupdated": "2020-11-10T22:41:47",
+    "version": 2
+  },
+  "JIyv6EzAf4prhAb": {
+    "name": "Frühlingsblüten",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "VSs2X_r02_d18"
+    },
+    "picture": "",
+    "image": "adfa9c3e-e9aa-4b65-b9d3-c5b2c0576715",
+    "lastupdated": "2020-11-10T22:41:47",
+    "version": 2
+  },
+  "4srJXSm2TTa2F3a": {
+    "name": "Entspannen",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "OEIu9_r02_d01"
+    },
+    "picture": "",
+    "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+    "lastupdated": "2020-11-10T22:41:47",
+    "version": 2
+  },
+  "p5EhbalF2nKgeTy": {
+    "name": "Lesen",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "KnjJU_r02_d02"
+    },
+    "picture": "",
+    "image": "e101a77f-9984-4f61-aac8-15741983c656",
+    "lastupdated": "2020-11-10T22:41:47",
+    "version": 2
+  },
+  "7t6FpFor2EPmz1Q": {
+    "name": "Konzentrieren",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "mgput_r02_d03"
+    },
+    "picture": "",
+    "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+    "lastupdated": "2020-11-10T22:41:47",
+    "version": 2
+  },
+  "rsUVPSWUOa8SaJH": {
+    "name": "Energie tanken",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "eWcAn_r02_d04"
+    },
+    "picture": "",
+    "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+    "lastupdated": "2020-11-10T22:41:48",
+    "version": 2
+  },
+  "Q5BCvRzwRtyQyTt": {
+    "name": "Hell",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "QjNdh_r02_d05"
+    },
+    "picture": "",
+    "image": "732ff1d9-76a7-4630-aad0-c8acc499bb0b",
+    "lastupdated": "2020-11-10T22:41:48",
+    "version": 2
+  },
+  "ZgselXyfXzfQx2c": {
+    "name": "Gedimmt",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "faTT7_r02_d06"
+    },
+    "picture": "",
+    "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+    "lastupdated": "2020-11-10T22:41:48",
+    "version": 2
+  },
+  "iyFRqOfv155ekP4": {
+    "name": "Nachtlicht",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "mzuvc_r02_d07"
+    },
+    "picture": "",
+    "image": "28bbfeff-1a0c-444e-bb4b-0b74b88e0c95",
+    "lastupdated": "2020-11-10T22:41:48",
+    "version": 2
+  },
+  "GSoQYkKHvtNyJVQ": {
+    "name": "Energie tanken",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": true,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "FG2Rk_r07_d04"
+    },
+    "picture": "",
+    "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+    "lastupdated": "2020-12-11T14:52:49",
+    "version": 2
+  },
+  "zPSlrEUQADZWpCd": {
+    "name": "Konzentrieren",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "g080A_r03_d03"
+    },
+    "picture": "",
+    "image": "b90c8900-a6b7-422c-a5d3-e170187dbf8c",
+    "lastupdated": "2020-11-14T16:53:52",
+    "version": 2
+  },
+  "pkNMOBbfb3DhOtB": {
+    "name": "Entspannen",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "0jHvt_r03_d01"
+    },
+    "picture": "",
+    "image": "a1f7da49-d181-4328-abea-68c9dc4b5416",
+    "lastupdated": "2020-11-14T16:53:52",
+    "version": 2
+  },
+  "RUgi1BJAcKKc5UW": {
+    "name": "Lesen",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "Bkk6B_r03_d02"
+    },
+    "picture": "",
+    "image": "e101a77f-9984-4f61-aac8-15741983c656",
+    "lastupdated": "2020-11-14T16:53:53",
+    "version": 2
+  },
+  "RkMRuuo1LMbjlFM": {
+    "name": "Gedimmt",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "X2vgx_r03_d06"
+    },
+    "picture": "",
+    "image": "8c74b9ba-6e89-4083-a2a7-b10a1e566fed",
+    "lastupdated": "2020-11-14T16:53:53",
+    "version": 2
+  },
+  "u2jLxatPdSGQNDl": {
+    "name": "Energie tanken",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "7YoLV_r03_d04"
+    },
+    "picture": "",
+    "image": "7fd2ccc5-5749-4142-b7a5-66405a676f03",
+    "lastupdated": "2020-11-14T21:17:42",
+    "version": 2
+  },
+  "4wmr48Ud1i20i-j": {
+    "name": "Abend",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": true,
+    "appdata": {
+      "version": 1,
+      "data": "wx6IT_r03"
+    },
+    "picture": "",
+    "lastupdated": "2020-11-30T22:46:11",
+    "version": 2
+  },
+  "CBg8EGxmD3mIcHR": {
+    "name": "Nacht",
+    "type": "GroupScene",
+    "group": "7",
+    "lights": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "QgtsX_r07"
+    },
+    "picture": "",
+    "lastupdated": "2020-12-08T23:27:36",
+    "version": 2
+  },
+  "czibZRG1RU2SMx1": {
+    "name": "Nacht",
+    "type": "GroupScene",
+    "group": "6",
+    "lights": [
+      "15"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "iyDku_r06"
+    },
+    "picture": "",
+    "lastupdated": "2020-12-08T23:28:00",
+    "version": 2
+  },
+  "xcKD4SEr1puZn46": {
+    "name": "Nacht",
+    "type": "GroupScene",
+    "group": "3",
+    "lights": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "NKRM2_r03"
+    },
+    "picture": "",
+    "lastupdated": "2020-12-08T23:28:10",
+    "version": 2
+  },
+  "HY1kSZxefcqDwWO": {
+    "name": "Nacht",
+    "type": "GroupScene",
+    "group": "2",
+    "lights": [
+      "12",
+      "13",
+      "14"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "sLdDM_r02"
+    },
+    "picture": "",
+    "lastupdated": "2020-12-08T23:28:22",
+    "version": 2
+  },
+  "rxKrwTF5bGf4Q0a": {
+    "name": "Nacht",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "BoIOx_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-12-08T23:28:30",
+    "version": 2
+  },
+  "6vC8mVgejD9sGCY": {
+    "name": "Auto",
+    "type": "GroupScene",
+    "group": "1",
+    "lights": [
+      "5",
+      "9",
+      "10",
+      "11"
+    ],
+    "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+    "recycle": false,
+    "locked": false,
+    "appdata": {
+      "version": 1,
+      "data": "hCIVS_r01"
+    },
+    "picture": "",
+    "lastupdated": "2020-12-12T12:41:28",
+    "version": 2
+  }
+}

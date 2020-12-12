@@ -8,7 +8,8 @@ private val logger = LoggerFactory.getLogger("Root")
 data class Config(
     val url: String,
     val apiKey: String,
-    val refreshIntervalMillis: Int
+    val refreshIntervalMillis: Int,
+    val autoSceneName: String,
 )
 
 private fun loadConfig(): Config {
@@ -18,7 +19,8 @@ private fun loadConfig(): Config {
         return Config(
             configMap.getValue("url") as String,
             configMap.getValue("api_key") as String,
-            configMap.getOrDefault("refresh_interval", 1000) as Int
+            configMap.getOrDefault("refresh_interval", 1000) as Int,
+            configMap.getOrDefault("auto_scene_name", "Auto") as String
         )
     } catch (e: Exception) {
         logger.error("Create a valid config.yml file (see config.yml.sample)", e)
