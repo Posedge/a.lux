@@ -31,19 +31,18 @@ val MOCK_HTTP_CLIENT = HttpClient(MockEngine) {
 }
 
 /**
- * Handler that returns the predefined mock responses.
- * The response bodies are read from the (test) resources and are taken from my hue bridge.
+ * Handler that returns predefined dummy data.
+ * The response bodies are taken from my hue bridge and read from the (test) resources.
  */
 private fun MockRequestHandleScope.setupRequestHandlers(request: HttpRequestData): HttpResponseData {
     val responseBodyFile = when {
         request.url.encodedPath.endsWith("/groups") -> "groups.json"
         request.url.encodedPath.endsWith("/scenes") -> "scenes.json"
-        else -> error("Unhandled ${request.url}")
+        else -> error("Unhandled mock request: ${request.url}")
     }
-    return this.respond(
-        readResource(responseBodyFile),
-        headers = headersOf("content-type", "application/json;coding=UTF-8"),
-    )
+    val responseBody = readResource(responseBodyFile)
+    val headers = headersOf("Content-Type" to listOf("application/json;coding=UTF-8"))
+    return this.respond(responseBody, headers = headers)
 }
 
 private fun readResource(path: String): ByteArray {
