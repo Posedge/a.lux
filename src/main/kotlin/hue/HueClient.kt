@@ -11,17 +11,20 @@ class HueClient (private val http: HttpClient) {
 
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    suspend fun getLightGroups(): Map<Int, Group> =
-        http.get<Map<Int, Group>>("${CONFIG.url}/api/${CONFIG.apiKey}/groups")
-            .filterValues { it.type in setOf("Room", "Zone") }
+    suspend fun getLights(): Map<Int, Light> =
+        http.get("${CONFIG.url}/api/${CONFIG.apiKey}/lights")
 
-    suspend fun getLight(id: Int): Light =
+    suspend fun getLight(id: String): Light =
         http.get("${CONFIG.url}/api/${CONFIG.apiKey}/lights/$id")
 
-    suspend fun getScenes(): Map<String, Scene> =
+    suspend fun getLightGroups(): Map<String, Group> =
+        http.get<Map<String, Group>>("${CONFIG.url}/api/${CONFIG.apiKey}/groups")
+            .filterValues { it.type in setOf("Room", "Zone") }
+
+    suspend fun getScenes(): Map<String, GenericScene> =
         http.get("${CONFIG.url}/api/${CONFIG.apiKey}/scenes")
 
-    suspend fun getAutoScenes(): Map<String, Scene> =
+    suspend fun getAutoScenes(): Map<String, GenericScene> =
         getScenes()
             .filterValues { it.name == CONFIG.autoSceneName }
             .ifEmpty {

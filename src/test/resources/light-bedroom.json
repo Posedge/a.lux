@@ -1,0 +1,70 @@
+{
+  "state": {
+    "on": false,
+    "bri": 254,
+    "hue": 41442,
+    "sat": 75,
+    "effect": "none",
+    "xy": [
+      0.3146,
+      0.3303
+    ],
+    "ct": 156,
+    "alert": "select",
+    "colormode": "xy",
+    "mode": "homeautomation",
+    "reachable": true
+  },
+  "swupdate": {
+    "state": "noupdates",
+    "lastinstall": "2020-03-03T13:15:58"
+  },
+  "type": "Extended color light",
+  "name": "Schlafzimmer rechts",
+  "modelid": "LCT015",
+  "manufacturername": "Signify Netherlands B.V.",
+  "productname": "Hue color lamp",
+  "capabilities": {
+    "certified": true,
+    "control": {
+      "mindimlevel": 1000,
+      "maxlumen": 806,
+      "colorgamuttype": "C",
+      "colorgamut": [
+        [
+          0.6915,
+          0.3083
+        ],
+        [
+          0.1700,
+          0.7000
+        ],
+        [
+          0.1532,
+          0.0475
+        ]
+      ],
+      "ct": {
+        "min": 153,
+        "max": 500
+      }
+    },
+    "streaming": {
+      "renderer": true,
+      "proxy": true
+    }
+  },
+  "config": {
+    "archetype": "singlespot",
+    "function": "mixed",
+    "direction": "omnidirectional",
+    "startup": {
+      "mode": "safety",
+      "configured": true
+    }
+  },
+  "uniqueid": "00:17:88:01:03:03:6e:aa-0b",
+  "swversion": "1.50.2_r30933",
+  "swconfigid": "772B0E5E",
+  "productid": "Philips-LCT015-1-A19ECLv5"
+}

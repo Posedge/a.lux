@@ -8,6 +8,8 @@ data class Light(
         val bri: Int,
         val hue: Int,
         val sat: Int,
+        val xy: List<Float>?,
+        val ct: Int?,
     )
 }
 
@@ -22,9 +24,22 @@ data class Group(
 /**
  * A scene on the hue is a configuration of one or more lights.
  */
-data class Scene(
+data class GenericScene(
     val lights: List<Int>,
     val name: String,
     val type: String,
     val group: String?,
 )
+
+data class GroupScene(
+    val lights: List<Int>,
+    val name: String,
+    val group: String,
+    val lightstates: Map<String, LightState>
+) {
+    data class LightState (
+        val on: Boolean,
+        val bri: Int,
+        val xy: List<Float>,
+    )
+}

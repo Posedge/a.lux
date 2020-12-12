@@ -1,0 +1,890 @@
+{
+  "3": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 41442,
+      "sat": 75,
+      "effect": "none",
+      "xy": [
+        0.3146,
+        0.3303
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-03T13:15:58"
+    },
+    "type": "Extended color light",
+    "name": "Schlafzimmer rechts",
+    "modelid": "LCT015",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "singlespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:03:6e:aa-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "772B0E5E",
+    "productid": "Philips-LCT015-1-A19ECLv5"
+  },
+  "4": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 41442,
+      "sat": 75,
+      "effect": "none",
+      "xy": [
+        0.3146,
+        0.3303
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-03T13:16:19"
+    },
+    "type": "Extended color light",
+    "name": "Bett",
+    "modelid": "LCT015",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "flexiblelamp",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:01:a2:e5-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "772B0E5E",
+    "productid": "Philips-LCT015-1-A19ECLv5"
+  },
+  "5": {
+    "state": {
+      "on": false,
+      "bri": 152,
+      "hue": 8382,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4577,
+        0.4097
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-03T13:16:14"
+    },
+    "type": "Extended color light",
+    "name": "Wohnzimmer rechts hinten",
+    "modelid": "LCT015",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "doublespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:03:65:22-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "772B0E5E",
+    "productid": "Philips-LCT015-1-A19ECLv5"
+  },
+  "6": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 41442,
+      "sat": 75,
+      "effect": "none",
+      "xy": [
+        0.3146,
+        0.3303
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-03T13:16:09"
+    },
+    "type": "Extended color light",
+    "name": "Schlafzimmer links",
+    "modelid": "LCT015",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "singlespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:94:4a:19-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "772B0E5E",
+    "productid": "Philips-LCT015-1-A19ECLv5"
+  },
+  "7": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 41442,
+      "sat": 75,
+      "effect": "none",
+      "xy": [
+        0.3146,
+        0.3303
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-03T13:16:03"
+    },
+    "type": "Extended color light",
+    "name": "Schlafzimmer mitte",
+    "modelid": "LCT015",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 1000,
+        "maxlumen": 806,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "singlespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:03:dd:dd:ef-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "772B0E5E",
+    "productid": "Philips-LCT015-1-A19ECLv5"
+  },
+  "8": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 11321,
+      "sat": 9,
+      "effect": "none",
+      "xy": [
+        0.3143,
+        0.3301
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": false
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-03-03T13:16:53"
+    },
+    "type": "Extended color light",
+    "name": "Val Lightstrip",
+    "modelid": "LST002",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue lightstrip plus",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 40,
+        "maxlumen": 1600,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "huelightstrip",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:04:4a:2d:91-0b",
+    "swversion": "1.50.2_r30933",
+    "swconfigid": "59F2C3A3",
+    "productid": "Philips-LST002-1-LedStripsv3"
+  },
+  "9": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 8382,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4577,
+        0.4097
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-11-08T13:19:10"
+    },
+    "type": "Extended color light",
+    "name": "Wohnzimmer vorne",
+    "modelid": "LCA001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "doublespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:31:ea:2c-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "BD38721C",
+    "productid": "Philips-LCA001-5-A19ECLv6"
+  },
+  "10": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 8382,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4577,
+        0.4097
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-11-08T13:19:06"
+    },
+    "type": "Extended color light",
+    "name": "Wohnzimmer rechts",
+    "modelid": "LCA001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "doublespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:2e:1a:8b-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "BD38721C",
+    "productid": "Philips-LCA001-5-A19ECLv6"
+  },
+  "11": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 8382,
+      "sat": 140,
+      "effect": "none",
+      "xy": [
+        0.4577,
+        0.4097
+      ],
+      "ct": 366,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-11-08T13:19:01"
+    },
+    "type": "Extended color light",
+    "name": "Wohnzimmer links",
+    "modelid": "LCA001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "doublespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:36:ed:a3-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "BD38721C",
+    "productid": "Philips-LCA001-5-A19ECLv6"
+  },
+  "12": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 41442,
+      "sat": 75,
+      "effect": "none",
+      "xy": [
+        0.3146,
+        0.3303
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-11-11T23:26:32"
+    },
+    "type": "Extended color light",
+    "name": "Flur vorne",
+    "modelid": "LCA001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "doublespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:a3:02:c7-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "BD38721C",
+    "productid": "Philips-LCA001-5-A19ECLv6"
+  },
+  "13": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 41442,
+      "sat": 75,
+      "effect": "none",
+      "xy": [
+        0.3146,
+        0.3303
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-11-11T23:26:30"
+    },
+    "type": "Extended color light",
+    "name": "Flur hinten",
+    "modelid": "LCA001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "doublespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:1d:0b:b7-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "BD38721C",
+    "productid": "Philips-LCA001-5-A19ECLv6"
+  },
+  "14": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "hue": 41442,
+      "sat": 75,
+      "effect": "none",
+      "xy": [
+        0.3146,
+        0.3303
+      ],
+      "ct": 156,
+      "alert": "select",
+      "colormode": "xy",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-11-11T23:26:27"
+    },
+    "type": "Extended color light",
+    "name": "Flur mitte",
+    "modelid": "LCA001",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue color lamp",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 200,
+        "maxlumen": 800,
+        "colorgamuttype": "C",
+        "colorgamut": [
+          [
+            0.6915,
+            0.3083
+          ],
+          [
+            0.1700,
+            0.7000
+          ],
+          [
+            0.1532,
+            0.0475
+          ]
+        ],
+        "ct": {
+          "min": 153,
+          "max": 500
+        }
+      },
+      "streaming": {
+        "renderer": true,
+        "proxy": true
+      }
+    },
+    "config": {
+      "archetype": "doublespot",
+      "function": "mixed",
+      "direction": "omnidirectional",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:06:1d:01:1a-0b",
+    "swversion": "1.65.9_hB3217DF",
+    "swconfigid": "BD38721C",
+    "productid": "Philips-LCA001-5-A19ECLv6"
+  },
+  "15": {
+    "state": {
+      "on": false,
+      "bri": 254,
+      "ct": 156,
+      "alert": "select",
+      "colormode": "ct",
+      "mode": "homeautomation",
+      "reachable": true
+    },
+    "swupdate": {
+      "state": "noupdates",
+      "lastinstall": "2020-11-16T10:13:44"
+    },
+    "type": "Color temperature light",
+    "name": "Büro Decke",
+    "modelid": "3261030P6",
+    "manufacturername": "Signify Netherlands B.V.",
+    "productname": "Hue Being Ceiling",
+    "capabilities": {
+      "certified": true,
+      "control": {
+        "mindimlevel": 100,
+        "maxlumen": 2400,
+        "ct": {
+          "min": 153,
+          "max": 454
+        }
+      },
+      "streaming": {
+        "renderer": false,
+        "proxy": false
+      }
+    },
+    "config": {
+      "archetype": "ceilinground",
+      "function": "functional",
+      "direction": "downwards",
+      "startup": {
+        "mode": "safety",
+        "configured": true
+      }
+    },
+    "uniqueid": "00:17:88:01:08:58:c8:d3-0b",
+    "swversion": "1.56.7_r29434",
+    "swconfigid": "779A0BAA",
+    "productid": "4422-9466-8971_HC02_PSU03"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Auto",
+  "type": "GroupScene",
+  "group": "1",
+  "lights": [
+    "5",
+    "9",
+    "10",
+    "11"
+  ],
+  "owner": "233c4443-08c1-4ba4-90e6-cee42634ba32",
+  "recycle": false,
+  "locked": false,
+  "appdata": {
+    "version": 1,
+    "data": "hCIVS_r01"
+  },
+  "picture": "",
+  "lastupdated": "2020-12-12T12:41:28",
+  "version": 2,
+  "lightstates": {
+    "5": {
+      "on": true,
+      "bri": 152,
+      "xy": [
+        0.4580,
+        0.4098
+      ]
+    },
+    "9": {
+      "on": false,
+      "bri": 254,
+      "xy": [
+        0.4580,
+        0.4098
+      ]
+    },
+    "10": {
+      "on": false,
+      "bri": 254,
+      "xy": [
+        0.4580,
+        0.4098
+      ]
+    },
+    "11": {
+      "on": false,
+      "bri": 254,
+      "xy": [
+        0.4580,
+        0.4098
+      ]
+    }
+  }
+}

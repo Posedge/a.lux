@@ -11,6 +11,15 @@ internal class HueClientTest {
     val testHueClient = HueClient(MOCK_HTTP_CLIENT)
 
     @Test
+    fun `can find lights and their states`(): Unit = runBlocking {
+        val lights = testHueClient.getLights()
+        lights.values.forEach() {
+            assertTrue(it.state.ct != null || it.state.xy != null)
+        }
+        testHueClient.getLight("3")
+    }
+
+    @Test
     fun `can find light groups`(): Unit = runBlocking {
         val groups = testHueClient.getLightGroups()
         assertTrue(groups.isNotEmpty())
