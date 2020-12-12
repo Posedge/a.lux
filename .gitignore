@@ -25,7 +25,7 @@
 /nbdist/
 /.nb-gradle/
 
-**/config.yml
+src/main/resources/config.yml
 
 # Compiled class file
 *.class
