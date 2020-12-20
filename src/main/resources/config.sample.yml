@@ -11,3 +11,6 @@ auto_scene_name: Auto
 
 # Interval in milliseconds during which a.lux will periodically check and update the lights.
 refresh_interval: 1000
+
+groups:
+  - name: Living Room

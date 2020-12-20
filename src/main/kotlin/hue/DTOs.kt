@@ -18,6 +18,7 @@ data class Light(
  * A group can be a room, a zone, or another internal type.
  */
 data class Group(
+    val name: String,
     val lights: List<Int>,
     val type: String,
 )

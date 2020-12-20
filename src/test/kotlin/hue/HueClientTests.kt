@@ -26,6 +26,7 @@ internal class HueClientTests {
         assertTrue(groups.isNotEmpty())
         for (group in groups.values) {
             assertTrue(group.lights.isNotEmpty())
+            assertTrue(group.name.isNotBlank())
             assertTrue(setOf("Room", "Zone").contains(group.type))
         }
     }

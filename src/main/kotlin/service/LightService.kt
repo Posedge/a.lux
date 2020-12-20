@@ -1,55 +1,34 @@
 package service
 
 import CONFIG
+import hue.Group
 import hue.HueClient
 import kotlinx.coroutines.runBlocking
 import org.slf4j.LoggerFactory
 
-class LightService {
+class LightService(private val hue: HueClient = HueClient()) {
 
-    val logger = LoggerFactory.getLogger(javaClass)
-    var isManagingLighting: Boolean = false;
-    var lastLightState: Any? = null;
-    val hue = HueClient()
-
+    private val logger = LoggerFactory.getLogger(javaClass)
     init {
         logger.info("A.lux is starting up. Configuration: $CONFIG")
-        runBlocking {
-//            mainLoop()
-            val groups = hue.getLightGroups()
-            logger.info("Found groups: $groups")
+    }
+    val groups: Map<String, GroupService> = findGroups()
+
+    private fun findGroups(): Map<String, GroupService> {
+        val allLightGroups: Map<String, Group> = runBlocking { hue.getLightGroups() }
+        logger.debug("Found groups on the hue: $groups")
+
+        return CONFIG.groups.associate { configGroup ->
+            val name = configGroup.name
+            val (hueId, hueGroup) = findHueGroupByName(allLightGroups, name)
+            name to GroupService(name, hueId, hueGroup.lights)
         }
     }
 
-    fun mainLoop() {
-        while (true) {
-            refresh()
-            Thread.sleep(CONFIG.refreshIntervalMillis.toLong())
-        }
+    private fun findHueGroupByName(allLightGroups: Map<String, Group>, name: String): Pair<String, Group> {
+        val (id, group) = allLightGroups.entries.find { (_, hueGroup) -> hueGroup.name == name }
+            ?: error("Could not find group with name '$name'")
+        return id to group
     }
 
-    private fun refresh() {
-        logger.debug("Refresh")
-        if (isManagingLighting) {
-            verifyLightState()
-            setLightState()
-        } else {
-            checkAutoScene()
-        }
-    }
-
-    private fun verifyLightState() {
-        TODO("Not yet implemented")
-    }
-
-    private fun setLightState() {
-        TODO("Not yet implemented")
-    }
-
-    /**
-     * Check if the scene in the room matches the designated 'auto' scene and take over.
-     */
-    private fun checkAutoScene() {
-        TODO("Not yet implemented")
-    }
 }

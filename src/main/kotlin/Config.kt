@@ -11,7 +11,12 @@ data class Config(
     val apiKey: String,
     val refreshIntervalMillis: Int,
     val autoSceneName: String,
-)
+    val groups: List<Group>,
+) {
+    data class Group(
+        val name: String,
+    )
+}
 
 private fun loadConfig(): Config {
     try {
@@ -21,7 +26,10 @@ private fun loadConfig(): Config {
             configMap.getValue("url") as String,
             configMap.getValue("api_key") as String,
             configMap.getOrDefault("refresh_interval", 1000) as Int,
-            configMap.getOrDefault("auto_scene_name", "Auto") as String
+            configMap.getOrDefault("auto_scene_name", "Auto") as String,
+            (configMap.getValue("groups") as List<Map<String, Any>>).map { groupMap ->
+                Config.Group(groupMap.getValue("name") as String)
+            },
         )
     } catch (e: Exception) {
         logger.error("Create a valid config.yml file and place it on the classpath " +
