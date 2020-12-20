@@ -13,8 +13,8 @@ internal class HueClientTest {
     @Test
     fun `can find lights and their states`(): Unit = runBlocking {
         val lights = testHueClient.getLights()
-        lights.values.forEach {
-            assertTrue(it.state.ct != null || it.state.xy != null)
+        for (light in lights.values) {
+            assertTrue(light.state.ct != null || light.state.xy != null)
         }
         val light3 = testHueClient.getLight("3")
         assertTrue(light3.state.ct != null || light3.state.xy != null)
@@ -24,9 +24,9 @@ internal class HueClientTest {
     fun `can find light groups`(): Unit = runBlocking {
         val groups = testHueClient.getLightGroups()
         assertTrue(groups.isNotEmpty())
-        groups.values.forEach {
-            assertTrue(it.lights.isNotEmpty())
-            assertTrue(setOf("Room", "Zone").contains(it.type))
+        for (group in groups.values) {
+            assertTrue(group.lights.isNotEmpty())
+            assertTrue(setOf("Room", "Zone").contains(group.type))
         }
     }
 
@@ -34,11 +34,11 @@ internal class HueClientTest {
     fun `can find scenes on the hue`(): Unit = runBlocking {
         val scenes = testHueClient.getScenes()
         assertTrue(scenes.isNotEmpty())
-        scenes.values.forEach {
-            if (it.type == "GroupScene") {
-                assertNotNull(it.group)
+        for (scene in scenes.values) {
+            if (scene.type == "GroupScene") {
+                assertNotNull(scene.group)
             }
-            assertTrue(it.lights.isNotEmpty())
+            assertTrue(scene.lights.isNotEmpty())
         }
     }
 
@@ -47,7 +47,7 @@ internal class HueClientTest {
         val scene = testHueClient.getScene("6vC8mVgejD9sGCY")
         assertTrue(scene.lights.isNotEmpty())
         assertTrue(scene.lightstates.isNotEmpty())
-        scene.lightstates.forEach { (lightId, state) ->
+        for (state in scene.lightstates.values) {
             assertTrue(state.xy != null || state.ct != null)
         }
     }
@@ -56,7 +56,7 @@ internal class HueClientTest {
     fun `can find scenes designated as auto`(): Unit = runBlocking {
         val autoScenes = testHueClient.getAutoScenes()
         assertTrue(autoScenes.isNotEmpty())
-        autoScenes.forEach { (id, scene) ->
+        for (scene in autoScenes.values) {
             assertEquals("Auto", scene.name)
         }
     }

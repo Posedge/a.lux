@@ -18,7 +18,7 @@ class LightService {
         runBlocking {
 //            mainLoop()
             val groups = hue.getLightGroups()
-            logger.info("groups $groups")
+            logger.info("Found groups: $groups")
         }
     }
 
@@ -29,7 +29,7 @@ class LightService {
         }
     }
 
-    fun refresh() {
+    private fun refresh() {
         logger.debug("Refresh")
         if (isManagingLighting) {
             verifyLightState()

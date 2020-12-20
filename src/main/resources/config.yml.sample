@@ -9,3 +9,5 @@ api_key: your_api_key
 # Switch to this scene on the hue to turn on automation by this script.
 auto_scene_name: Auto
 
+# Interval in milliseconds during which a.lux will periodically check and update the lights.
+refresh_interval: 1000

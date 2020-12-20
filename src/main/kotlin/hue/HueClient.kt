@@ -3,13 +3,10 @@ package hue
 import CONFIG
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
-import org.slf4j.LoggerFactory
 
 class HueClient (private val http: HttpClient) {
 
     constructor() : this (DEFAULT_HTTP_CLIENT)
-
-    private val logger = LoggerFactory.getLogger(javaClass)
 
     suspend fun getLights(): Map<Int, Light> =
         http.get("${CONFIG.url}/api/${CONFIG.apiKey}/lights")
