@@ -14,7 +14,8 @@ data class Light(
 }
 
 /**
- * A group on the hue is a collection of lights. Among other things, this can be a room or a zone.
+ * A group on the hue is a collection of lights.
+ * A group can be a room, a zone, or another internal type.
  */
 data class Group(
     val lights: List<Int>,
@@ -22,7 +23,8 @@ data class Group(
 )
 
 /**
- * A scene on the hue is a configuration of one or more lights.
+ * A scene on the hue is a configuration of one or more lights in a group.
+ * There are [GroupScene]s and Light Scenes, the former are created by the user in the app.
  */
 data class GenericScene(
     val lights: List<Int>,
@@ -35,11 +37,12 @@ data class GroupScene(
     val lights: List<Int>,
     val name: String,
     val group: String,
-    val lightstates: Map<String, LightState>
+    val lightstates: Map<String, LightState>,
 ) {
     data class LightState (
         val on: Boolean,
         val bri: Int,
-        val xy: List<Float>,
+        val xy: List<Float>?,
+        val ct: Int?,
     )
 }
