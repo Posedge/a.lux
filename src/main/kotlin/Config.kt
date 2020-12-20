@@ -1,5 +1,6 @@
 import org.slf4j.LoggerFactory
 import org.yaml.snakeyaml.Yaml
+import service.LightService
 import java.lang.Exception
 import kotlin.system.exitProcess
 
@@ -23,7 +24,8 @@ private fun loadConfig(): Config {
             configMap.getOrDefault("auto_scene_name", "Auto") as String
         )
     } catch (e: Exception) {
-        logger.error("Create a valid config.yml file (see config.yml.sample)", e)
+        logger.error("Create a valid config.yml file and place it on the classpath " +
+                "(resources directory or current directory). See config.sample.yml", e)
         exitProcess(1)
     }
 }

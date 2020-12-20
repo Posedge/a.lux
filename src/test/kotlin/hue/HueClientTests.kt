@@ -6,7 +6,7 @@ import kotlin.test.assertEquals
 import kotlin.test.assertNotNull
 import kotlin.test.assertTrue
 
-internal class HueClientTest {
+internal class HueClientTests {
 
     private val testHueClient = HueClient(MOCK_HTTP_CLIENT)
 

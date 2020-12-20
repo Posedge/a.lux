@@ -49,6 +49,6 @@ private fun MockRequestHandleScope.setupRequestHandlers(request: HttpRequestData
 }
 
 private fun readResource(path: String): ByteArray {
-    return HueClientTest::class.java.classLoader.getResource(path)?.readBytes()
+    return HueClientTests::class.java.classLoader.getResource(path)?.readBytes()
         ?: throw RuntimeException("Resource not found: $path")
 }

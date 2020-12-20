@@ -1,10 +1,9 @@
+package service
+
+import CONFIG
 import hue.HueClient
 import kotlinx.coroutines.runBlocking
 import org.slf4j.LoggerFactory
-
-fun main(args: Array<String>) {
-    LightService()
-}
 
 class LightService {
 
