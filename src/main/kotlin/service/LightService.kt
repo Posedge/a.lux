@@ -14,11 +14,10 @@ class LightService(private val hue: HueClient = HueClient()) {
     private fun findGroups(): Map<String, GroupService> {
         val allLightGroups: Map<String, Group> = runBlocking { hue.getLightGroups() }
         logger.debug("Found groups on the hue: $groups")
-
         return Config.groups.associate { configGroup ->
             val name = configGroup.name
             val (hueId, hueGroup) = findHueGroupByName(allLightGroups, name)
-            name to GroupService(name, hueId, hueGroup.lights)
+            name to GroupService(name, hueId, hueGroup.lights, configGroup.schedule)
         }
     }
 

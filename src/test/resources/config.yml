@@ -4,3 +4,14 @@ auto_scene_name: Auto
 refresh_interval: 1000
 groups:
   - name: Living Room
+    schedule:
+      - time: '07:00'
+        scene: 'Dark'
+      - time: '08:00'
+        scene: 'Bright'
+      - time: '21:00'
+        scene: 'Bright'
+      - time: '22:00'
+        scene: 'Evening'
+      - time: '23:00'
+        scene: 'Dark'
