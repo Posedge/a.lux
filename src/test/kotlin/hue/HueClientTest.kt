@@ -8,15 +8,16 @@ import kotlin.test.assertTrue
 
 internal class HueClientTest {
 
-    val testHueClient = HueClient(MOCK_HTTP_CLIENT)
+    private val testHueClient = HueClient(MOCK_HTTP_CLIENT)
 
     @Test
     fun `can find lights and their states`(): Unit = runBlocking {
         val lights = testHueClient.getLights()
-        lights.values.forEach() {
+        lights.values.forEach {
             assertTrue(it.state.ct != null || it.state.xy != null)
         }
-        testHueClient.getLight("3")
+        val light3 = testHueClient.getLight("3")
+        assertTrue(light3.state.ct != null || light3.state.xy != null)
     }
 
     @Test
@@ -42,11 +43,20 @@ internal class HueClientTest {
     }
 
     @Test
+    fun `can find single scene with more detail`(): Unit = runBlocking {
+        val scene = testHueClient.getScene("6vC8mVgejD9sGCY")
+        assertTrue(scene.lights.isNotEmpty())
+        assertTrue(scene.lightstates.isNotEmpty())
+        scene.lightstates.forEach { (lightId, state) ->
+            assertTrue(state.xy != null || state.ct != null)
+        }
+    }
+
+    @Test
     fun `can find scenes designated as auto`(): Unit = runBlocking {
         val autoScenes = testHueClient.getAutoScenes()
         assertTrue(autoScenes.isNotEmpty())
-        autoScenes.forEach {
-            val (id, scene) = it
+        autoScenes.forEach { (id, scene) ->
             assertEquals("Auto", scene.name)
         }
     }

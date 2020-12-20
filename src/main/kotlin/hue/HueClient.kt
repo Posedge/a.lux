@@ -24,10 +24,15 @@ class HueClient (private val http: HttpClient) {
     suspend fun getScenes(): Map<String, GenericScene> =
         http.get("${CONFIG.url}/api/${CONFIG.apiKey}/scenes")
 
+    suspend fun getScene(id: String): GroupScene =
+        http.get("${CONFIG.url}/api/${CONFIG.apiKey}/scenes/$id")
+
+    /**
+     * Find the scenes that are named 'Auto' (the name is configurable).
+     * Lights being in this state is the cue for a.lux to take over.
+     */
     suspend fun getAutoScenes(): Map<String, GenericScene> =
         getScenes()
             .filterValues { it.name == CONFIG.autoSceneName }
-            .ifEmpty {
-                error("No scenes named '${CONFIG.autoSceneName}' found on the hue")
-            }
+            .ifEmpty { error("No scenes named '${CONFIG.autoSceneName}' found on the hue") }
 }
